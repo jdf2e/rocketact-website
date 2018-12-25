@@ -20,9 +20,11 @@ const users = [
   },
 ];
 
+const repoUrl = 'https://github.com/jdf2e/rocketact';
+
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Rocketact', // Title for your website.
+  tagline: '🚀 Developing React projects with ease',
   url: 'https://jdf2e.github.io', // Your website URL
   baseUrl: '/rocketact/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,10 +40,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'getting-started', label: "Docs"},
+    {href: repoUrl, label: 'GitHub'},
   ],
 
   // If you have users set above, you add it here:
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} JD.com`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -100,7 +100,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+    repoUrl,
 };
 
 module.exports = siteConfig;
