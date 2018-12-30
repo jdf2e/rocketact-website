@@ -20,7 +20,7 @@ const users = [
   }
 ];
 
-const repoUrl = "https://github.com/jdf2e/rocketact";
+const repoUrl = "https://github.com/jdf2e/rocketact-website";
 const baseUrl = "/rocketact/";
 
 const siteConfig = {
