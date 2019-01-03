@@ -81,6 +81,7 @@ const siteConfig = {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: "monokai"
   },
+  usePrism: ['jsx'],
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [
