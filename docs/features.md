@@ -4,5 +4,12 @@ title: Features
 sidebar_label: Features
 ---
 
-This is a link to [another document.](doc3.md)  
-This is a link to an [external page.](http://www.example.com)
+## Zero Configuration
+
+
+
+## Builtin Support for TypeScript
+
+## Builtin Web Console
+
+## Fully Configurable

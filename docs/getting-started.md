@@ -41,7 +41,7 @@ Rocketact requires **Node >= 7** on your local machine. You can use [nvm](https:
 
 Start local development environment. 
 
-Once the environment started, you will see a similar console:
+Once started, you will see a similar console:
 
 ![](assets/development-environment-console.png)
 
@@ -55,6 +55,6 @@ In the development environment, changes made to JavaScript module and SCSS/CSS f
 
 Start a production build. 
 
-During production build, all text assets (JavaScript / CSS files) will be minified and hashes are added to file names for long-term caching.
+During the production build, all text assets (JavaScript / CSS files) will be minified and hashes are added to file names for long-term caching.
 
 All emitted assets will be saved to `build` folder.
