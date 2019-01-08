@@ -5,7 +5,7 @@ title: Adding Stylesheets
 
 We use [Webpack](https://webpack.js.org/) for bundling all assets used in the project. You can tell Webpack to compile a specific CSS file by importing that CSS file in your React component.
 
-__`Button.js`__
+__`Button.tsx`__
 
 ```jsx
 import React from 'react';
