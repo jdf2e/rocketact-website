@@ -1,8 +1,9 @@
 {
   "docs": {
-    "Getting Started": ["getting-started", "features", "Folder Structure", "available-scripts", "browser-compatibility"],
+    "Getting Started": ["getting-started", "features", "Folder Structure", "available-scripts", "supported-browsers-features"],
     "Development": ["managing-depencencies", "adding-pages", "adding-stylesheets", "post-processing-css", "adding-images"],
-    "Advanced Usage": ["adding-new-loaders", "adding-new-webpack-plugins"],
+    "Deployment":["public-path"],
+    "Advanced Usage": ["dynamic-import"],
     "Plugins": ["how-plugins-works", "rocketact-plugin-polyfill", "rocketact-plugin-butler"]
   },
   "docs-other": {
