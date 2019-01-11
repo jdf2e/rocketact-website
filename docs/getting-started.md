@@ -15,6 +15,7 @@ Again, [Create React App](https://facebook.github.io/create-react-app/) **is a g
 ## Quick Start
 
 ```bash
+#!/bin/bash
 npx rocketact create my-awesome-app
 cd my-awesome-app
 npm start
@@ -23,6 +24,7 @@ npm start
 npx comes with [npm 5.2+](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner) and higher version. If you are using an older version npm, you can use Rocketact in the following way:
 
 ```bash
+#!/bin/bash
 npm install -g rocketact
 rocketact create my-awesome-app
 cd my-awesome-app
@@ -39,7 +41,7 @@ Rocketact requires **Node >= 7** on your local machine. You can use [nvm](https:
 
 ### `npm start` or `yarn start`
 
-Start local development environment. 
+Start local development environment.
 
 Once started, you will see a similar console:
 
@@ -53,7 +55,7 @@ In the development environment, changes made to JavaScript module and SCSS/CSS f
 
 ### `npm run build` or `yarn build`
 
-Start a production build. 
+Start a production build.
 
 During the production build, all text assets (JavaScript / CSS files) will be minified and hashes are added to file names for long-term caching.
 
